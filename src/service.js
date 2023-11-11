@@ -2,8 +2,6 @@ const API_URL_RICK_AND_MORTY = "https://rickandmortyapi.com/api/character";
 const main = document.querySelector(".main-container");
 
 const infos = []
-const imgPersons = []
-
 
 async function loadInfosPersons() {
     await fetch(API_URL_RICK_AND_MORTY)
